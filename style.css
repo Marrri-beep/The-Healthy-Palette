@@ -1,0 +1,89 @@
+ .fir {
+          padding: 10px 15px;
+    border: 3px solid black;
+     background-color: rgb(255, 255, 255);
+        }
+    #fff {
+      color: rgb(167, 255, 157);
+    }
+    .sec {
+     border: 2px solid black;
+     float: left;
+      overflow: auto;
+        background-color: rgb(255, 255, 255);
+      color: rgb(167, 255, 157);
+    }
+    #p1 {
+        left: 0;
+    padding: 10px 15px;
+    border: 2px solid black;
+    float: left;;
+    width: 265px;
+    overflow: auto;
+   clear: both;
+     background-color: rgb(255, 255, 255);
+      color: rgb(119, 217, 108);
+    }
+
+     #p2 {
+        right: 0;
+    padding: 10px 15px;
+    border: 2px solid black;
+    float: left;
+    width: 267px;
+    overflow: auto;
+   clear: both;
+     background-color: rgb(255, 255, 255);
+      color: rgb(109, 205, 98);
+    }
+    #im {
+    float: left;
+    left: 100px;
+      background-color: rgb(255, 255, 255);
+      color: rgb(95, 199, 84);
+}
+#f {
+        left: 0;
+    padding: 10px 15px;
+    border: 2px solid black;
+    float: left;
+    width: 390px;
+    overflow: auto;
+   clear: both;
+     background-color: rgb(255, 255, 255);
+      color: rgb(102, 201, 92);
+    }                      
+
+    #s {
+        position: relative;
+    padding: 10px 15px;
+    border: 2px solid black;
+   float: left;
+    left: 210px;
+    width: 265px;
+    text-align: center;
+    overflow: auto;
+      background-color: rgb(255, 255, 255);
+      color: rgb(102, 205, 91);
+    }
+
+    #t {
+        left: 0;
+    padding: 10px 15px;
+    border: 2px solid black;
+    float: right;
+    width: 350px;
+    overflow: auto;
+      background-color: rgb(255, 255, 255);
+      color: rgb(104, 190, 94);
+    }
+
+    .image {
+float: bottom;
+text-align: center;
+ overflow: auto;
+   clear: both;
+    }
+    body {
+        background-color: rgb(54, 54, 54);
+    }
