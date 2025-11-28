@@ -1,13 +1,26 @@
+
+body {
+   background-color: rgb(194, 238, 189);
+}
+.col { 
+  border-radius: 25px;
+  border: 3px solid black;
+  background-color: rgb(54, 54, 54);
+  margin: 20px;
+}
  .fir {
-          padding: 10px 15px;
-    border: 3px solid black;
+      padding: 10px 15px;
+    border-radius: 25px;
+    border: 3px;
      background-color: rgb(255, 255, 255);
         }
     #fff {
-      color: rgb(167, 255, 157);
+      color: rgb(167, 255, 157); 
     }
     .sec {
-     border: 2px solid black;
+      float: left;
+      border-radius: 25px;
+     border: 2px;
      float: left;
       overflow: auto;
         background-color: rgb(255, 255, 255);
@@ -16,9 +29,10 @@
     #p1 {
         left: 0;
     padding: 10px 15px;
-    border: 2px solid black;
-    float: left;;
-    width: 265px;
+    border-radius: 25px;
+    border: 2px;
+    float: left;
+    width: 400px;
     overflow: auto;
    clear: both;
      background-color: rgb(255, 255, 255);
@@ -28,26 +42,37 @@
      #p2 {
         right: 0;
     padding: 10px 15px;
-    border: 2px solid black;
+    border-radius: 25px;
+    border: 2px;
     float: left;
-    width: 267px;
+    width: 397px;
     overflow: auto;
    clear: both;
      background-color: rgb(255, 255, 255);
       color: rgb(109, 205, 98);
     }
+  #img {
+  position: relative;
+   border-radius: 25px;
+   border: 2px solid rgb(255, 255, 255);
+  left: 40px;
+  size: 30px;
+  }
     #im {
+    border-radius: 25px;
+    border: 2px solid  rgb(255, 255, 255);
     float: left;
-    left: 100px;
-      background-color: rgb(255, 255, 255);
-      color: rgb(95, 199, 84);
+    left: 50px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(95, 199, 84);
 }
 #f {
         left: 0;
     padding: 10px 15px;
-    border: 2px solid black;
+    border-radius: 25px;
+    border: 2px;
     float: left;
-    width: 390px;
+    width: 445px;
     overflow: auto;
    clear: both;
      background-color: rgb(255, 255, 255);
@@ -57,10 +82,11 @@
     #s {
         position: relative;
     padding: 10px 15px;
-    border: 2px solid black;
+    border-radius: 25px;
+    border: 2px;
    float: left;
-    left: 210px;
-    width: 265px;
+    left: 96px;
+    width: 300px;
     text-align: center;
     overflow: auto;
       background-color: rgb(255, 255, 255);
@@ -70,9 +96,10 @@
     #t {
         left: 0;
     padding: 10px 15px;
-    border: 2px solid black;
+    border-radius: 25px;
+    border: 2px;
     float: right;
-    width: 350px;
+    width: 410px;
     overflow: auto;
       background-color: rgb(255, 255, 255);
       color: rgb(104, 190, 94);
@@ -84,6 +111,14 @@ text-align: center;
  overflow: auto;
    clear: both;
     }
-    body {
-        background-color: rgb(54, 54, 54);
+    .mar {
+      margin: 30px;
+    }
+
+    a {
+      color: rgb(104, 190, 94);
+    }
+    
+    a:hover {
+       color: rgb(31, 116, 24);
     }
